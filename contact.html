@@ -3,7 +3,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EHJMC ILORIN</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-contact.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700&display=swap" rel="stylesheet">
@@ -12,23 +12,79 @@
 <body>
     <section class="header">
         <nav>
-            <!--<a href="index.html"><img src="./img/logo.png" alt=""></a>-->
+            <a href="index.html"><img src="./img/logo.png" alt=""></a>
             <div class="nav-links" id="navLinks">
                 <i class="fa fa-times" onclick="hideMenu()"></i>
                 <ul>
                     <li><a href="index.html">HOME</a></li>
                     <li><a href="about.html">ABOUT</a></li>
                     <li><a href="blog.html">BLOG</a></li>
-                    <li><a href="">CONTACT</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
                 </ul>
             </div>
             <i class="fa fa-bars" onclick="showMenu()"></i>
         </nav>
-        <section class="cta">
+        <!--<section class="cta">
             <h1>EUCHARISTIC HEART OF JESUS MODEL COLLEGE</h1>
             <a href="index.html" class="hero-btn">HOME</a>
         </section>
-    </section>
+    </section> -->
+   <section class="container">
+        <h1>Connect With Us</h1>
+        <p>Feel free to get in touch with us</p>
+        <div class="contact-box">
+            <div class="contact-left">
+                <h3>Send your request</h3>
+                <form action="">
+                    <div class="input-row">
+                        <div class="input-group">
+                            <label for="">Name</label>
+                            <input type="text" placeholder="John Brooks">
+                        </div>
+                        <div class="input-group">
+                            <label for="">Phone Number</label>
+                            <input type="text" placeholder="+234 00 0000 000">
+                        </div>
+                    </div>
+                    <div class="input-row">
+                        <div class="input-group">
+                            <label for="">Email</label>
+                            <input type="email" placeholder="mail@gmail.com">
+                        </div>
+                        <div class="input-group">
+                            <label for="">Subject</label>
+                            <input type="text" placeholder="Donation">
+                        </div>
+                    </div>
+
+                    <label for="">Message</label>
+                    <textarea rows="5" placeholder="Your Message"></textarea>
+                    <button type="submit" class="hero-btn1">SEND</button>
+                </form>
+            </div>
+            <div class="contact-right">
+                <h3>Reach us</h3>
+                <table>
+                    <tr>
+                        <td>Email</td>
+                        <td>ehjmc@yahoo.com</td>
+                    </tr>
+                    <tr>
+                        <td>Phone No</td>
+                        <td>+234 00 0000 0000</td>
+                    </tr>
+                    <tr>
+                        <td>Address</td>
+                        <td>P.O Box 4580,<br>
+                            Asa-Dam Road,<br>
+                            Ilorin. <br>
+                            Kwara State. <br>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+   </section>
     <script>
         var navLinks = document.getElementById("navLinks")
 
